@@ -1,0 +1,17 @@
+# pip install -r requirements.txt
+# conda config --set ssl_verify false
+# pip install flask --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+# app
+flask
+sqlalchemy
+psycopg2-binary
+redis
+
+# dev/tests
+pytest
+pytest-icdiff
+mypy
+pylint
+requests
+tenacity
